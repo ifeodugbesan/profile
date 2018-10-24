@@ -109,6 +109,33 @@ li {
   border-radius: 5px;
 }
 
+#sidebar {
+  background-color: #565857;
+  position: fixed;
+  width: 125px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar li {
+  font-size: 40px;
+  display: list-item;
+  text-align: center
+}
+
+#sidebar a {
+  color: #323639;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#page-content {
+  margin-left: 150px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
