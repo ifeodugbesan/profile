@@ -121,7 +121,9 @@ li {
 #sidebar li {
   font-size: 40px;
   display: list-item;
-  text-align: center
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 50px;
 }
 
 #sidebar a {
