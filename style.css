@@ -112,14 +112,14 @@ li {
 #sidebar {
   background-color: #565857;
   position: fixed;
-  width: 125px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
 }
 
 #sidebar li {
-  font-size: 40px;
+  font-size: 30px;
   display: list-item;
   text-align: center;
   padding-bottom: 30px;
@@ -136,6 +136,16 @@ li {
 
 #page-content {
   margin-left: 150px;
+}
+
+.plain-title-link {
+  text-decoration: none;
+  color: #7E7D7E;
+}
+
+.plain-title-link:hover {
+  text-decoration: none;
+  color: #BD1F1E;
 }
 
 @media (max-width: 960px) {
