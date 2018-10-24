@@ -73,12 +73,12 @@ li {
   padding-bottom: 10px;
 }
 
-#circle_avatar {
+#circle-avatar {
   border-radius: 50px;
   border: 2px solid #E5E5E5
 }
 
-.blue_button {
+.blue-button {
   background-color: #067BC2;
   color: white;
   border-radius: 5px;
@@ -86,25 +86,25 @@ li {
   text-decoration: none;
 }
 
-.blue_button:hover {
+.blue-button:hover {
   background-color: #3E78B2;
 }
 
-.table_spacing img {
+.table-spacing img {
   width: 160px;
   height: 250px;
   border-radius: 5px;
 }
 
-.table_spacing h3 {
+.table-spacing h3 {
   text-align: center;
 }
 
-.table_spacing p {
+.table-spacing p {
   padding-left: 15px;
 }
 
-.img_padding {
+.img-padding {
   padding: 10px;
   border-radius: 5px;
 }
