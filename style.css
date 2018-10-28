@@ -1,10 +1,11 @@
 @import url("components/avatar.css");
-@import url("components/tabs.css");
 @import url("components/profile_header.css");
-
+@import url("components/navbar.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+@import url("components/banner.css");
 
 body {
-  background-color: rgba(0,0,0,.1);
   margin: 0;
 }
 
@@ -12,6 +13,8 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: x-large;
   color: #067BC2;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.2);
 }
 
 h2, h3 {
@@ -19,6 +22,7 @@ h2, h3 {
   font-weight: lighter;
   font-size: larger;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 p {
@@ -26,26 +30,67 @@ p {
   color: #999999;
 }
 
-.navigation {
-  height: 70px;
-  background: #565857;
-  box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+.profile-light-grey {
+  background-color: rgba(0,0,0,.1);
+}
+
+.movie-medium-grey {
+  background-color: #353941;
+}
+
+.tv-darker-grey {
+  background-color: #26282b;
+}
+
+.wrapper {
+  height: 100vh;
   display: flex;
   align-items: center;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  z-index: 10;
-  font-size: 30px;
-
+  justify-content: center;
 }
 
-.navigation a {
-  color: #999999;
+.profile-container {
+  display: flex;
+  height: 70vh;
+  width: 70vw;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px #BCBCBC;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.navigation a:hover {
+.profile {
+  text-align: center;
+}
+
+.profile p {
+  margin-bottom: 20px;
+}
+
+.media-container {
+  width: 70vw;
+  text-align: center;
+  padding: 10px;
+}
+
+.media-container h1 {
   color: white;
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.6);
+  margin: 0px 0px 40px 0px;
+}
+
+.card-container {
+  width: 70vw;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px #BCBCBC;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-container h1 {
+  color: white;
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.6);
 }
 
 .links {
@@ -55,12 +100,17 @@ p {
   font-family: 'Muli', sans-serif;
 }
 
-.fa-facebook-f {
+.fa-facebook {
   color: #4167B2;
 }
 
 .fa-twitter {
   color: #00ACED;
+}
+
+
+.fa-linkedin {
+  color: #0373AF;
 }
 
 .fa-instagram {
@@ -84,7 +134,6 @@ li {
 
 .container {
   width: 800px;
-  margin: 20px auto;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0px 1px 2px 0px #BCBCBC;
@@ -107,7 +156,9 @@ li {
 }
 
 .blue-button:hover {
-  background-color: #3E78B2;
+  background-color: #10ACF3;
+  text-decoration: none;
+  color: white;
 }
 
 .table-spacing img {
@@ -127,10 +178,6 @@ li {
 .img-padding {
   padding: 10px;
   border-radius: 5px;
-}
-
-#page-content {
-  margin-top: 80px;
 }
 
 .plain-title-link {
